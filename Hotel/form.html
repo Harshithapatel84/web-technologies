@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+    <form>
+        <div>
+            <h1>Room Booking Form</h1>
+            <hr>
+            Full Name:
+            <label for="nameId"></label>
+            <input type="text" name="userName" id="nameId" required>
+             <span style="color: red;">*</span>
+        </div><br>
+
+        <label>Email:</label>
+        <input type="email"><br><br>
+
+        <div>Phone:
+            <label for="telId"></label>
+            <input type="tel" name="telname" id="telId" required>
+             <span style="color: red;">*</span>
+        </div><br>
+
+         <div>Days Required :
+            <input type="number" name="dayName" id="dayId">
+        </div><br>
+
+        <label>Room Type:</label>
+        <span style="color: red;">*</span>
+        <select>
+            <option>Delux</option>
+            <option>Ac</option>
+            <option>Non-Ac</option>
+            <option>Suite</option>
+        </select><br> <br>
+     
+        <div>Food Preferences
+            <input type="radio" name="radioName" id="radioId">Veg
+            <input type="radio" name="radioName" id="radioId">Non-Veg
+        </div><br>
+
+        <div><label for="checkboxId">Facilities Required:</label>
+            <input type="checkbox" name="selecttype" id="checkboxId">Wi-Fi
+            <input type="checkbox" name="selecttype" id="checkboxId">Pool
+            <input type="checkbox" name="selecttype" id="checkboxId">Parking Facility
+        </div><br>
+
+        <div> <label for="rangeId">Price Range:</label>
+            <input type="range" name="rangename" id="rangeId"><br>
+        </div><br>
+         
+        <div><input type="submit" value="Book Now">
+        <input type="reset" value="cancel"></div>
+    </form>
+    </fieldset>
+</body>
+
+</html>
