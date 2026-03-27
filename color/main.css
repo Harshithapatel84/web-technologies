@@ -1,0 +1,15 @@
+.resort{
+    color: darkgreen;
+    background-color: lightpink;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.border{
+    border: double 10px brown;
+    border-radius: 10px;
+   padding: 10px;
+}
