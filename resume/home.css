@@ -3,14 +3,15 @@
   font-weight: 500;
   font-style: normal;
 }
-.icon-container {
+.icon{
     display: flex;
     gap: 100px;
     align-items: center;
-}
-.icon-container i {
     font-size: 22px;
+    padding: 5px;
+    margin: 15px;
 }
+
 .profile-img {
     border-radius: 50%;
     border: 1px solid black;
