@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form2.js"></script>
+</head>
+
+<body >
+    <h2 style="text-align: center;">Registration Form</h2>
+     <div style="display: flex;justify-content: center;align-items: center; ">
+    <fieldset style="border-color: black; width: 600px;background-color: darkgray;">
+    <form name="Registrationform" onsubmit="return validateForm()">
+        
+        <div>
+            <label for="nameId">Name</label>
+            <span style="color: red;">*</span>:
+            <input type="text" name="userName" id="nameId" required>
+        </div><br>
+        <div>
+            <label for="emailId">E-mail</label>
+            <span style="color: red;">*</span>:
+            <input type="email" name="mailName" id="emailId" required>
+        </div><br>
+        <div>
+            <label for="addressId">Address</label>
+            <span style="color: red;"></span>:
+            <input type="text" name="addressname" id="addressId">
+        </div><br>
+        <div>
+            <label for="numberId">Phone Number</label>
+            <span style="color: red;">*</span>:
+            <input type="text" name="numberName" id="numberId">
+        </div><br>
+        <div>
+            <input type="checkbox" name="name" id="userid">
+            <label for="userid">I agree terms and condition.</label>
+        </div><br>
+
+
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="cancel">
+        </div>
+          
+    </form>
+    </fieldset>
+   </div>
+</body>
+</html>
+
+
+
+
+
+
+
