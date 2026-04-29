@@ -1,0 +1,113 @@
+.classContact {
+    color: indianred;
+    background-color: khaki;
+}
+
+.mynavbar {
+    background-color: #d4af37;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.mynavbar a {
+    color: white;
+
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.mynavbar a:hover {
+    color: yellow;
+}
+
+
+.footerclass {
+    display: flex;
+    gap: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.custom-btn {
+    background-color: #d4af37;
+    color: black;
+    border: none;
+    border-radius: 0;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+
+
+.outline-btn {
+    background-color: transparent;
+    color: #d4af37;
+    border: 2px solid #d4af37;
+    border-radius: 0;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+
+
+.outline-btn:hover {
+    background-color: #d4af37;
+    color: rgb(247, 245, 245);
+}
+
+.footer {
+
+    padding: 80px;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer .left,
+.footer .column {
+    color: rgb(39, 35, 30);
+    padding: 20px;
+  background-color: antiquewhite;
+    width: 280px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer .right {
+    display: flex;
+    gap: 30px;
+}
+
+
+.footer h2 {
+    margin-bottom: 10px;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #555;
+    margin: 5px ;
+}
+
+
+.footer .column p:hover {
+    color: rgb(187, 218, 233);
+    cursor: pointer;
+}
+
+.contact {
+    color: goldenrod;
+}
